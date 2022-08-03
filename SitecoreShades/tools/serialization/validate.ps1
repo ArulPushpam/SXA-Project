@@ -1,5 +1,5 @@
 Push-Location ../../
 
-dotnet sitecore ser validate --fix
+sitecore ser validate --fix
 
 Push-Location .\tools\serialization\
