@@ -29,14 +29,14 @@ Languages:
         sitecore\Admin
     - ID: "7250fc16-7dbb-4874-80b1-8d9a72d42766"
       Hint: Title
-      Value: StandBlog
+      Value: StandBlog Sample
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "87b0225f-91d9-400a-b688-219a87c5b75e"
+      Value: "adc8960b-75e8-41f3-ba60-d7dbf855186f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220802T162910Z
+      Value: 20220803T034134Z
