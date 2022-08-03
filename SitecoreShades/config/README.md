@@ -1,16 +1,13 @@
   PreRequisites: 
   1.  Sitecore Experience Platform 10.2.0 rev. 006766 
-  2.  Sitecore module versions
-      	2.1 Install Sitecore.PowerShell.Extensions-6.3
-      	2.2 Install Sitecore Experience Accelerator 10.2.0 rev. 04247
-      	2.3 Install Sitecore ManagementServices 4.1.0 rev. 00492
+  2.  Install Sitecore ManagementServices 4.1.0 rev. 00492
   3.  Install currect Node version--> "node-v > 14.17.3"
   4.  Install currect Npm version--> "npm -v > 6.14.13"
 
 1. Publish properties in gulp-config config object:
-	    webRoot: "C:\\inetpub\\wwwroot\\centralsc.dev.local",
-        devRoot: "C:\Projects\CGP",
-        solutionName: "CGP",
+	    webRoot: "C:\\inetpub\\wwwroot\\sitecoreshadessc.dev.local",
+        devRoot: "C:\SitecoreShades\SXA-Project\SitecoreShades",
+        solutionName: "SitecoreShades",
         buildConfiguration: "Debug",
         MSBuildToolsVersion: 16.0
 
@@ -37,15 +34,7 @@
           }
 	  3. Run npm install again	
 
-5. make sure identityserver config file is deployed
-
-  Location :- "~\identityserver\Config\Sitecore.IdentityServer.CGP.xml" to the location "<wwwroot>\.<identityserver>\Config"
-
-6. make sure CLI config file is deployed to CM role.
-
-  Location :- "~/src\Project\Website\code\App_Config\Environment\Project\Project.Owin.CGP_CLI.config"
-
-7.  Serialization steps
+5.  Serialization steps
     7.1 Goto path "~\tools\serialization" and execute the powershell commands,
 
           > login.ps1  --> to save login details (need to performed first time only)
@@ -57,18 +46,5 @@
 
           > validate.ps1  --> to fix any error in serialization like to remove orphaned items/folders
 		
-8. Git Commands
-    8.1 Goto the root path and execute the commands,
-
-        > git fetch --> to fetch all the changes to your branch
-
-        > git pull --> to update your branch
-
-        > git merge origin/develop --> to merge all the changes from develop branch to your local branch
-
-        > git commit -m "<commit message>"  --> to commit your staged changes to project history
-
-        > git push --> to upload the changes from your local branch to remote branch.....
-
 
   
