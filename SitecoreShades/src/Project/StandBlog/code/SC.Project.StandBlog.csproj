@@ -67,6 +67,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="StandBlog\Web.config" />
+    <Content Include="StandBlog\Views\Carousel\Carousel.cshtml" />
+    <Content Include="StandBlog\Views\LinkList\Link List.cshtml" />
+    <Content Include="StandBlog\Views\Navigation\Navigation.cshtml" />
+    <Content Include="StandBlog\Views\Navigation\NavigationLevel.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -81,6 +86,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
