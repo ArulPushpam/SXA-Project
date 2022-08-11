@@ -36,16 +36,25 @@
 
 5. Serialization intial setup
 
-      1. cd <project folder>
-      2.dotnet new tool-manifest
-      3.dotnet nuget add source -n Sitecore https://sitecore.myget.org/F/sc-packages/api/v3/index.json
-      4.dotnet tool install -g sitecore.cli --version 4.2.1 --add-source https://sitecore.myget.org/F/sc-packages/api/v3/index.json
-      5.sitecore init
-      6.sitecore plugin add -n Sitecore.DevEx.Extensibility.Serialization --version 4.2.1
-      7.sitecore plugin add -n Sitecore.DevEx.Extensibility.Publishing --version 4.2.1
-      8.dotnet sitecore plugin add -n Sitecore.DevEx.Extensibility.Indexing --version 4.2.1
-      9.dotnet sitecore plugin add -n Sitecore.DevEx.Extensibility.ResourcePackage --version 4.2.1
-      10.dotnet sitecore --version
+      > cd <project folder>
+      
+      > dotnet new tool-manifest
+      
+      > dotnet nuget add source -n Sitecore https://sitecore.myget.org/F/sc-packages/api/v3/index.json
+      
+      > dotnet tool install -g sitecore.cli --version 4.2.1 --add-source https://sitecore.myget.org/F/sc-packages/api/v3/index.json
+      
+      > sitecore init
+      
+      > sitecore plugin add -n Sitecore.DevEx.Extensibility.Serialization --version 4.2.1
+      
+      > sitecore plugin add -n Sitecore.DevEx.Extensibility.Publishing --version 4.2.1
+      
+      > dotnet sitecore plugin add -n Sitecore.DevEx.Extensibility.Indexing --version 4.2.1
+      
+      > dotnet sitecore plugin add -n Sitecore.DevEx.Extensibility.ResourcePackage --version 4.2.1
+      
+      > dotnet sitecore --version
 
 5.  Serialization steps
    Goto path "~\tools\serialization" and execute the powershell commands,
