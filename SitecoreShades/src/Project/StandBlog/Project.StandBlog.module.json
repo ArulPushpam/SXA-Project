@@ -14,6 +14,12 @@
 				"path": "/sitecore/media library/Themes/SitecoreShades/StandBlog",
 				"scope": "ItemAndDescendants",
 				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			{
+				"name": "StandBlog-Branches",
+				"path": "/sitecore/templates/Branches/Feature/SitecoreShades",
+				"scope": "SingleItem",
+				"allowedPushOperations": "createUpdateAndDelete"
 			}
 		]
 	}
