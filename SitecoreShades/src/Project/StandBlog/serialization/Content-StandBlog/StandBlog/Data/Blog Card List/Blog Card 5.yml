@@ -28,6 +28,9 @@ Languages:
       Hint: __Owner
       Value: |
         sitecore\Admin
+    - ID: "59fa11d0-c779-4f02-beca-25802331acc2"
+      Hint: Category
+      Value: "{B4C66ECD-4329-4946-BB5E-144993A7137B}"
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -37,7 +40,7 @@ Languages:
       Value: FASHION
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9c4522d0-9062-499d-8534-f03749b52989"
+      Value: "63ef76c6-7c7b-4113-9563-60970556afca"
     - ID: "a869f1ca-5f7d-4b6d-8dea-d695cbbde57d"
       Hint: Author
       Value: Admin
@@ -52,7 +55,7 @@ Languages:
         {6AE6C0B2-B799-4F83-96AA-92CF9E052BF7}
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220811T130618Z
+      Value: 20220814T174414Z
     - ID: "fda03ead-0edf-4a0c-a85a-f3755b8135f2"
       Hint: SocialTag
       Value: |

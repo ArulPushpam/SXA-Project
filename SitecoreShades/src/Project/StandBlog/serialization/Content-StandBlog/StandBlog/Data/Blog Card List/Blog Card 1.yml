@@ -29,6 +29,9 @@ Languages:
       Hint: __Owner
       Value: |
         sitecore\Admin
+    - ID: "59fa11d0-c779-4f02-beca-25802331acc2"
+      Hint: Category
+      Value: "{52F4AA7E-EEC3-49F2-9C32-7A6A31959A45}"
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -38,7 +41,7 @@ Languages:
       Value: LIFESTYLE
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "dbf2c9dc-534e-4e46-b4a8-b56927ab8709"
+      Value: "196ef18f-f382-4d4f-824d-5802f39bd182"
     - ID: "a869f1ca-5f7d-4b6d-8dea-d695cbbde57d"
       Hint: Author
       Value: Admin
@@ -53,7 +56,7 @@ Languages:
         {6AE6C0B2-B799-4F83-96AA-92CF9E052BF7}
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220811T125432Z
+      Value: 20220814T174406Z
     - ID: "fda03ead-0edf-4a0c-a85a-f3755b8135f2"
       Hint: SocialTag
       Value: |
