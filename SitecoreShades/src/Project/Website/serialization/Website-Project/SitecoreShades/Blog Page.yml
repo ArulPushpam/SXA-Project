@@ -1,14 +1,17 @@
 ﻿---
-ID: "365a2d63-846e-4147-a366-fe5129e0ef18"
-Parent: "fb36c11d-113e-4561-b125-5bfe4e88ccc7"
-Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
-Path: /sitecore/content/SitecoreShades/StandBlog/Presentation/Available Renderings/SatndBlog
+ID: "06e1faff-e3ff-43a9-845a-4e5d8e1f4e25"
+Parent: "33995858-b922-4e41-b044-387093e89d87"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/SitecoreShades/Blog Page
 SharedFields:
-- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
-  Hint: Renderings
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/16x16/edit.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
   Value: |
-    {A5A2A529-4B97-46BA-8908-168BC8E5B8B7}
-    {F7979F57-7337-44D8-B081-B6F83DA403F7}
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {D4748A54-89FE-4F74-B832-A794A37FD93F}
 Languages:
 - Language: en
   Versions:
@@ -16,7 +19,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20220810T052738Z
+      Value: 20220820T110955Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -27,11 +30,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e6650aeb-81ab-4f73-a2df-607e8098a296"
+      Value: "c6d5ee7f-ec3b-485e-ae04-a93ccd958a9b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220825T060304Z
+      Value: 20220820T111506Z
